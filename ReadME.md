@@ -14,9 +14,11 @@ Please follow the below steps to integrate this control in your next project.
 - Fully customised design layout.
 
 <br/><br/>
-<img src="Screenshots/Screen1.png” width="300" alt="Screens/Screen1.png">
-<img src="Screenshots/Screen2.png” width="300" alt="Screens/Screen2.png">
-<img src="Screenshots/Screen3.png” width="300" alt="Screens/Screen3.png">
+<img src="Screenshots/Screen1.png” width="300" alt="Screenshots/Screen1.png">
+
+<img src="Screenshots/Screen2.png” width="300" alt="Screenshots/Screen2.png">
+
+<img src="Screenshots/Screen3.png” width="300" alt="Screenshots/Screen3.png">
 
 
 
