@@ -10,16 +10,14 @@ Please follow the below steps to integrate this control in your next project.
 
 - Easy & Fast to get customer location picker.
 - You can select a location from Google Place API or User’s current location.
-- Allow to get location in easy block implementation.
-- Fully customised design layout.
+- Allow getting location for easy block implementation.
+- Fully customized design layout.
 
-<br/><br/>
-<img src="Screenshots/Screen1.png” width="300"/>
-
-<img src="Screenshots/Screen2.png” width="300"/>
-
-<img src="Screenshots/Screen3.png” width="300"/>
-
+<div style="float:left">
+<img src="Screenshots/Screen1.jpg" width="200">
+<img src="Screenshots/Screen2.png" width="200">
+<img src="Screenshots/Screen3.png" width="200">
+</div>
 
 
 <br/><br/>
@@ -62,7 +60,7 @@ GMSServices.provideAPIKey(GoogleAPIKey)
 
 Copy value of ‘REVERSED_CLIENT_ID’ from ‘GoogleService-Info.plist’.
 Select Project->Targets and open “info” tab.
-Expand URL Types at bottom of screen and click on + button.
+Expand URL Types at bottom of the screen and click on + button.
 Add ‘REVERSED_CLIENT_ID’ value in ‘URL Schemes’.
 
 6) Copy ‘IntPickerViewController’ folder and add it to your project and make sure you have checked “Copy if needed” option.
@@ -71,7 +69,7 @@ Add ‘REVERSED_CLIENT_ID’ value in ‘URL Schemes’.
 
 ```
 IntPickerViewController.show (with : self, coordinate: nil, address : "", completion :{
-	newCoordinate, newAddress in
+    newCoordinate, newAddress in
             
             let strMessage = "Lat: \((newCoordinate?.latitude ?? 0.0)!) Long: \((newCoordinate?.longitude ?? 0.0)!)\n\nAddress: \(newAddress!)"
             print(strMessage)
@@ -96,5 +94,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <br/>
 <h1></h1>
 <a href="https://www.intuz.com/" target="_blank"><img src="Screenshots/logo.jpg"></a>
-
 
