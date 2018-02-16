@@ -1,26 +1,29 @@
-**<h1>Introduction</h1>**
-INTUZ is presenting an interesting Address Picker Control to integrate inside your iOS based application. 
-Address Picker is a simple component, which lets you pick a location from Map and search using Google Places API. 
+<h1>Introduction</h1>
+INTUZ is presenting an interesting  Address Picker Control to integrate inside your Native iOS based application. 
+Address Picker is a simple component, which lets you pick a location from map and search using Google Places API. 
 You will get a latitude, longitude and full address for selected location.
 
 Please follow the below steps to integrate this control in your next project.
 
 <br/><br/>
-**<h1>Features</h1>**
-* Easy & Fast to get customer location picker.
-* You can select a location from Google Place API or User’s current location.
-* Allow to get location in easy block implementation.
-* Fully customised design layout.
+<h1>Features</h1>
+
+- Easy & Fast to get customer location picker.
+- You can select a location from Google Place API or User’s current location.
+- Allow to get location in easy block implementation.
+- Fully customised design layout.
 
 <br/><br/>
-<img src="Screens/Screen1.png” width="300" alt="Screens/Screen1.png">
-<img src="Screens/Screen2.png” width="300" alt="Screens/Screen2.png">
-<img src="Screens/Screen3.png” width="300" alt="Screens/Screen3.png">
+<img src="Screenshots/Screen1.png” width="300"/>
+
+<img src="Screenshots/Screen2.png” width="300"/>
+
+<img src="Screenshots/Screen3.png” width="300"/>
 
 
 
 <br/><br/>
-**<h1>Getting Started</h1>**
+<h1>Getting Started</h1>
 
 To use this component in your project you need to perform below steps:
 
@@ -57,10 +60,10 @@ GMSServices.provideAPIKey(GoogleAPIKey)
 
 5) Configure URL Types with 'REVERSED_CLIENT_ID' value from ‘GoogleService-Info.plist’. To configure URL Types please follow below steps.
 
-* Copy value of ‘REVERSED_CLIENT_ID’ from ‘GoogleService-Info.plist’.
-* Select Project->Targets and open “info” tab.
-* Expand URL Types at bottom of screen and click on + button.
-* Add ‘REVERSED_CLIENT_ID’ value in ‘URL Schemes’.
+Copy value of ‘REVERSED_CLIENT_ID’ from ‘GoogleService-Info.plist’.
+Select Project->Targets and open “info” tab.
+Expand URL Types at bottom of screen and click on + button.
+Add ‘REVERSED_CLIENT_ID’ value in ‘URL Schemes’.
 
 6) Copy ‘IntPickerViewController’ folder and add it to your project and make sure you have checked “Copy if needed” option.
 
@@ -76,11 +79,11 @@ IntPickerViewController.show (with : self, coordinate: nil, address : "", comple
 ``` 
 
 <br/><br/>
-**<h1>Bugs and Feedback</h1>**
+<h1>Bugs and Feedback</h1>
 For bugs, questions and discussions please use the Github Issues.
 
 <br/><br/>
-**<h1>License</h1>**
+<h1>License</h1>
 The MIT License (MIT)
 <br/><br/>
 Copyright (c) 2018 INTUZ
@@ -91,7 +94,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <br/>
 <br/>
-**<h1></h1>**
-<a href="https://www.intuz.com/" target="_blank"><img src="Screens/logo.jpg"></a>
+<h1></h1>
+<a href="https://www.intuz.com/" target="_blank"><img src="Screenshots/logo.jpg"></a>
 
 
